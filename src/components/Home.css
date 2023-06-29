@@ -114,3 +114,12 @@ ul li {
     background:gray;
     margin:30px;
 }
+.project-expand {
+    background:blue;
+    height:100%;
+    clip-path: circle(15%);
+    transition: clip-path .5s ease-in-out;
+}
+.project-expand:hover {
+    clip-path:circle(100%);
+}
