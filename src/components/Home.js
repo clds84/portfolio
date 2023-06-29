@@ -22,12 +22,17 @@ const Home = (props) => {
 					I’ve always been an inquisitive person. In the last decade, I’ve taught myself how to sew, make shoes, and fix cars. What starts small like reading a book turns into moving to Florence, Italy to apprentice as a bespoke shoemaker. It has led to me teaching over 250 people how to sew. Software Engineering produces the same spark and I’m in love with a field that lends itself to what in my eyes feels like infinite curiosity.
 					</div>
 					<div class="projects">
-						<h1></h1>
+						<h1>Projects</h1>
 						<a href="">
 							<div class="project">
 
 							</div>
-						</a>					
+						</a>			
+						<a href="">
+							<div class="project">
+
+							</div>
+						</a>				
 					</div>
 				</main>
 			</div>
