@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
+
 :root {
     --font-size:50px;
     --grid-gap:20px;
@@ -36,8 +37,7 @@ header h1 {
 header img {
     height:200px;
     width:200px;
-    border-radius:20px;
-    background:grey;
+    border-radius:var(--border-radius);
 }
 
 main {
@@ -108,18 +108,34 @@ ul li {
     from, to { border-color:transparent }
     50% { border-color:orange; }
 }
-.project {
+.project-expand {
     height:400px;
     width:400px;
-    background:gray;
+    background:white;
     margin:30px;
+    border-radius:100px; 
 }
-.project-expand {
-    background:blue;
+.project {
+    background:grey;
+    background-size:cover;
     height:100%;
+    border: 5px solid rgba(0,0,0,1);
+    border-radius:var(--border-radius);
     clip-path: circle(15%);
-    transition: clip-path .5s ease-in-out;
+    transition: clip-path .4s linear;
 }
-.project-expand:hover {
+.project:hover {
     clip-path:circle(100%);
+    background-size:cover;
 }
+.project-1,project-1:hover {
+    background-image: url("https://imgur.com/LoUFihu.png");
+}
+
+
+
+/*
+.project-expand:hover:after {
+    background-image: url("https://imgur.com/LoUFihu.png");
+    background-size:cover;
+}*/
