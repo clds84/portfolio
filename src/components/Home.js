@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import project1 from '../../src/project1.png'
+import './Home.css'
 
 
 const Home = (props) => {
@@ -14,8 +15,21 @@ const Home = (props) => {
 				<header>
 					<h1>Cristian Desmaras</h1>
 					<h2>Software Engineer</h2>
-					<img src="">
+					<img src=""></img>
 				</header>
+				<main>
+					<div class="brand statement">
+
+					</div>
+					<div class="projects">
+						<h1></h1>
+						<a href="">
+							<div class="project">
+
+							</div>
+						</a>					
+					</div>
+				</main>
 			</div>
 		</>
 	)

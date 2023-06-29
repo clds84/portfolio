@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+:root {
+    --font-size:50px;
+    --grid-gap:20px;
+}
+
+body {
+    font-family: "Anonymous Pro";
+    margin:0;
+}
+.grid {
+    display:grid;
+    /*will experiment with min() and max() later*/
+    grid-template-columns:repeat(6,1fr);
+    grid-gap: var(--grid-gap);
+    justify-items:center;
+}
