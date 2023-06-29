@@ -54,8 +54,21 @@ main {
 sidebar {
     grid-column:6/span 1;
     grid-row:1;
-
+    border:2px solid black;
+    margin:20px; 
+    width:min-content;
+    height:min-content;
 }
+
+sidebar ul {
+    padding:var(--padding);
+    margin:0;
+}
+ul li {
+    list-style:none;
+    margin:5px
+}
+
 .brand-statement {
     /*grid-column:2;*/
     width:500px;
