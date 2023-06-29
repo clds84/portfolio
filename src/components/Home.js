@@ -41,22 +41,22 @@ const Home = (props) => {
 						<h1 class="projects-title">Projects</h1>
 						<a href="">
 							<div class="project">
-
+								<div class="project-expand"></div>
 							</div>
 						</a>			
 						<a href="">
 							<div class="project">
-
+								<div class="project-expand"></div>
 							</div>
 						</a>		
 						<a href="">
 							<div class="project">
-
+								<div class="project-expand"></div>
 							</div>
 						</a>	
 						<a href="">
 							<div class="project">
-
+								<div class="project-expand"></div>
 							</div>
 						</a>		
 					</div>
