@@ -39,26 +39,26 @@ const Home = (props) => {
 					</div>
 					<div class="projects">
 						<h1 class="projects-title">Projects</h1>
-						<a href="">
-							<div class="project">
-								<div class="project-expand"></div>
+						<Link to='//clds84.github.io/Game-Project-1/'>
+							<div class="project-expand">
+								<div class="project project-1"></div>
 							</div>
-						</a>			
-						<a href="">
-							<div class="project">
-								<div class="project-expand"></div>
+						</Link>			
+						<Link to='//clds84.github.io/Game-Project-1/'>
+							<div class="project-expand">
+								<div class="project"></div>
 							</div>
-						</a>		
-						<a href="">
-							<div class="project">
-								<div class="project-expand"></div>
+						</Link>		
+						<Link to='//clds84.github.io/Game-Project-1/'>
+							<div class="project-expand">
+								<div class="project"></div>
 							</div>
-						</a>	
-						<a href="">
-							<div class="project">
-								<div class="project-expand"></div>
+						</Link>	
+						<Link to='//clds84.github.io/Game-Project-1/'>
+							<div class="project-expand">
+								<div class="project"></div>
 							</div>
-						</a>		
+						</Link>		
 					</div>
 				</main>
 			</div>
@@ -87,6 +87,7 @@ export default Home
 					</p>
 				</div>
 				<div style={{display:'flex', justifyContent: 'center',flexWrap:'wrap', alignContent: 'center', alignItems: 'center'}}>
+					 
 					<Link to='//clds84.github.io/Game-Project-1/'>
 					<div style={{ height:'400px', width:'400px',backgroundImage: `url(${project1})`, backgroundSize:'cover'}}>
 					</div>
