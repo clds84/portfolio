@@ -91,6 +91,22 @@ ul li {
 }
 .projects-title {
     grid-column:1/-1;
+    overflow: hidden; 
+    max-width:min-content;
+    border-right: .15em solid orange; 
+    margin: 0 auto;
+    letter-spacing:4px;
+    animation:
+        typing 17s steps(42, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width:0 }
+    to { width:100% }
+}
+@keyframes blink-caret {
+    from, to { border-color:transparent }
+    50% { border-color:orange; }
 }
 .project {
     height:400px;
