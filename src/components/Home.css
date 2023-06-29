@@ -44,8 +44,7 @@ main {
     display:flex;
     justify-content:space-between;
     flex-direction:column;
-    align-content:center;
-    height:1300px;
+    align-items:center;
     width:500px;
    /* display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -61,8 +60,18 @@ main {
     background: rgba(255,255,255,1);
 }
 .projects {
-    /*grid-column:1/-1;*/
     
+    display:grid;
+    /*experimenting with minmax 
+    grid-template-columns: repeat(auto-fill, minmax(min(200px,100%),1fr));*/
+    grid-template-columns:1fr 1fr;
+    justify-items:center;
+    grid-gap:var(--grid-gap);
+    margin:50px;
+    
+}
+.projects-title {
+    grid-column:1/-1;
 }
 .project {
     height:400px;
